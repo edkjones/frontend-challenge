@@ -1,0 +1,121 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body{
+  font-family:oswald;
+}
+
+.container{
+  position: relative;
+  margin:auto;
+  width: 375px;
+  height: 667px;
+  background-color:#87A1D3;
+}
+
+.back{
+  position: absolute;
+  left: 15px;
+  top: 36px;
+}
+
+.share{
+  position: absolute;
+  right: 15px;
+  top: 36px;
+}
+
+h1{
+text-align: center;
+  color: #FFFFFF;
+  padding: 20px;
+  font-size: 24px;
+
+}
+
+h2{
+  position: relative;
+  font-size: 16px;
+  color: #ffffff;
+  left: 12px;
+  padding: 0 0 10px 0;
+
+}
+
+h3{
+  padding: 5px;
+  display: block;
+  font-size: 14px;
+}
+
+.eastbound{
+ margin: 0 auto;
+  width: 350px;
+  height: 85px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.northbound {
+  margin: 0 auto;
+  width: 350px;
+  height: 85px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.southbound{
+  margin: 0 auto;
+  width: 350px;
+  height: 85px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.reroute {
+  margin: 0 auto;
+  width: 350px;
+  height: 85px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.out-of-service{
+  margin: 0 auto;
+  width: 350px;
+  height: 140px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+
+.frequency{
+  float:right;
+  padding: 5px;
+}
+
+ul{
+  display: inline;
+  float: left;
+  padding: 5px;
+}
+
+li{
+  padding:5px;
+  font-size: 17px;
+}
+
+.destination{
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.time{
+  font-size: 15px;
+}
