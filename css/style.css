@@ -12,6 +12,7 @@ body{
   width: 375px;
   height: 667px;
   background-color:#87A1D3;
+  overflow: scroll;
 }
 
 .back{
@@ -39,14 +40,15 @@ h2{
   font-size: 16px;
   color: #ffffff;
   left: 12px;
-  padding: 0 0 10px 0;
+  padding: 10px 0 10px 0;
 
 }
 
 h3{
   padding: 5px;
   display: block;
-  font-size: 14px;
+  font-size: 15px;
+
 }
 
 .eastbound{
@@ -98,6 +100,7 @@ h3{
 .frequency{
   float:right;
   padding: 5px;
+  letter-spacing: 1px;
 }
 
 ul{
@@ -113,9 +116,23 @@ li{
 
 .destination{
   font-weight: lighter;
-  font-size: 15px;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
 .time{
-  font-size: 15px;
+font-size: 15px;
+color: #007AFF;
+}
+
+.line{
+  color: #007AFF;
+}
+
+.bad-line {
+  color: #F2960C;
+}
+
+.bad-time{
+  color:#F2960C;
 }
